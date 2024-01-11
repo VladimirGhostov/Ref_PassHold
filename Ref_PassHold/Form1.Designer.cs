@@ -37,8 +37,8 @@
             label2 = new Label();
             label1 = new Label();
             toolStrip1 = new ToolStrip();
-            toolStripButton1 = new ToolStripButton();
             toolStripButton2 = new ToolStripButton();
+            toolStripButton1 = new ToolStripButton();
             passwordListBox = new ListBox();
             panel1.SuspendLayout();
             toolStrip1.SuspendLayout();
@@ -52,14 +52,14 @@
             panel1.Controls.Add(loginTextBox);
             panel1.Controls.Add(label2);
             panel1.Controls.Add(label1);
-            panel1.Location = new Point(200, 160);
+            panel1.Location = new Point(12, 160);
             panel1.Name = "panel1";
-            panel1.Size = new Size(342, 147);
+            panel1.Size = new Size(296, 119);
             panel1.TabIndex = 0;
             // 
             // generateButton
             // 
-            generateButton.Location = new Point(219, 108);
+            generateButton.Location = new Point(180, 86);
             generateButton.Name = "generateButton";
             generateButton.Size = new Size(105, 25);
             generateButton.TabIndex = 5;
@@ -68,7 +68,7 @@
             // 
             // saveButton
             // 
-            saveButton.Location = new Point(89, 108);
+            saveButton.Location = new Point(50, 86);
             saveButton.Name = "saveButton";
             saveButton.Size = new Size(105, 25);
             saveButton.TabIndex = 4;
@@ -77,15 +77,14 @@
             // 
             // passwordTextBox
             // 
-            passwordTextBox.Location = new Point(89, 57);
+            passwordTextBox.Location = new Point(50, 57);
             passwordTextBox.Name = "passwordTextBox";
             passwordTextBox.Size = new Size(235, 23);
             passwordTextBox.TabIndex = 3;
             // 
             // loginTextBox
             // 
-            loginTextBox.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            loginTextBox.Location = new Point(89, 21);
+            loginTextBox.Location = new Point(50, 21);
             loginTextBox.Name = "loginTextBox";
             loginTextBox.Size = new Size(235, 23);
             loginTextBox.TabIndex = 2;
@@ -93,7 +92,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(34, 60);
+            label2.Location = new Point(3, 60);
             label2.Name = "label2";
             label2.Size = new Size(49, 15);
             label2.TabIndex = 1;
@@ -102,7 +101,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(42, 24);
+            label1.Location = new Point(3, 24);
             label1.Name = "label1";
             label1.Size = new Size(41, 15);
             label1.TabIndex = 0;
@@ -118,15 +117,6 @@
             toolStrip1.TabIndex = 1;
             toolStrip1.Text = "toolStrip1";
             // 
-            // toolStripButton1
-            // 
-            toolStripButton1.DisplayStyle = ToolStripItemDisplayStyle.Text;
-            toolStripButton1.Image = (Image)resources.GetObject("toolStripButton1.Image");
-            toolStripButton1.ImageTransparentColor = Color.Magenta;
-            toolStripButton1.Name = "toolStripButton1";
-            toolStripButton1.Size = new Size(46, 22);
-            toolStripButton1.Text = "Выход";
-            // 
             // toolStripButton2
             // 
             toolStripButton2.DisplayStyle = ToolStripItemDisplayStyle.Text;
@@ -136,13 +126,22 @@
             toolStripButton2.Size = new Size(54, 22);
             toolStripButton2.Text = "Пароли";
             // 
+            // toolStripButton1
+            // 
+            toolStripButton1.DisplayStyle = ToolStripItemDisplayStyle.Text;
+            toolStripButton1.Image = (Image)resources.GetObject("toolStripButton1.Image");
+            toolStripButton1.ImageTransparentColor = Color.Magenta;
+            toolStripButton1.Name = "toolStripButton1";
+            toolStripButton1.Size = new Size(46, 22);
+            toolStripButton1.Text = "Выход";
+            // 
             // passwordListBox
             // 
             passwordListBox.FormattingEnabled = true;
             passwordListBox.ItemHeight = 15;
-            passwordListBox.Location = new Point(12, 42);
+            passwordListBox.Location = new Point(314, 19);
             passwordListBox.Name = "passwordListBox";
-            passwordListBox.Size = new Size(316, 94);
+            passwordListBox.Size = new Size(458, 424);
             passwordListBox.TabIndex = 2;
             // 
             // Form1
